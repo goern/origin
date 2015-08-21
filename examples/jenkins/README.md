@@ -17,7 +17,7 @@ Steps
 
         $ oc policy add-role-to-user edit system:serviceaccount:test:default
 
-    This will allow the service account Jenkins uses to run builds and tag images.
+    This will allow the service account 'test' (the Jenkins user) to run builds and tag images.
 
 3. Optional:  If you are going to run Jenkins somewhere other than as a deployment within your same project you will need to provide an access token to Jenkins to access your project.
 
